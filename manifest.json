@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "ClearView",
+    "version": "1.0",
+    "description": "A Chrome Extension That Brings Clarity To News Publications.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "permissions": ["activeTab"]
+  }
