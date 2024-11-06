@@ -1,3 +1,5 @@
+<img width="90" height="90" alt="icon" src="https://github.com/user-attachments/assets/8524aaac-2c08-46b3-8d77-2b3f817a98fb"> 
+
 # ClearView
 
 **Overview**
@@ -27,8 +29,8 @@ ClearView uses the og:site_name meta property to identify the current website an
 
 For Google Chrome, Opera, Edge, or Other Chromium Browsers:
 
- 1. Download the latest release from our repository: https://github.com/JMasSolutions/ClearView
-   
+ 1. Download the source code from the latest release: https://github.com/JMasSolutions/ClearView 
+
  2. Load the Extension in Your Browser
     • Open your Chromium-based browser and go to the extensions page:
     • Chrome/Edge: chrome://extensions/
@@ -36,6 +38,7 @@ For Google Chrome, Opera, Edge, or Other Chromium Browsers:
     • Enable Developer Mode (usually found in the top right corner).
     • Click Load unpacked and select the ClearView project folder.
     • The ClearView icon should now appear in your browser’s toolbar.
+
  3. Test the Extension
     • Navigate to a news website, then click the ClearView icon in the toolbar.
     • The extension will display AllSides data related to the site.
