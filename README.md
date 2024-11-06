@@ -1,19 +1,19 @@
 # ClearView
 
-***Overview**
+**Overview**
 
 ClearView is a Chrome extension that provides insights into the political bias and credibility of news sources. By displaying AllSides data for the website a user is currently viewing, ClearView helps users make informed judgments about the news they consume.
 
 ClearView retrieves the site’s bias rating, confidence level, and agreement statistics directly from AllSides, displaying this information in a structured, easy-to-read popup.
 
-***Features**
+**Features**
 
  • Political Bias Ratings: See where news sources stand on the political spectrum (e.g., left-center, right).
  • Confidence Level: Understand the reliability of each rating based on AllSides’ confidence metrics.
  • Engagement Metrics: View metrics such as agree/disagree counts and the percentage of users who agree with the rating.
  • AllSides Profile Links: Access additional details about the news source directly on AllSides’ website.
 
-***How It Works**
+**How It Works**
 
 ClearView uses the og:site_name meta property to identify the current website and fetches data from AllSides to display relevant bias and reliability information. If the og:site_name is unavailable, it falls back to the website hostname.
 
