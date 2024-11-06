@@ -54,3 +54,6 @@ ClearView requests the following permissions:
 
 This project is licensed under the MIT License.
 
+# Preview
+<img width="1472" alt="Screenshot 2024-11-06 at 14 21 28" src="https://github.com/user-attachments/assets/d6e93c40-2c27-49b5-a414-60520bc3baac">
+
