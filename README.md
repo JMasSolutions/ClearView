@@ -17,7 +17,7 @@ ClearView retrieves the site’s bias rating, confidence level, and agreement st
 
 ClearView uses the og:site_name meta property to identify the current website and fetches data from AllSides to display relevant bias and reliability information. If the og:site_name is unavailable, it falls back to the website hostname.
 
-***Setup**
+**Setup**
 
 ***Prerequisites***
 
@@ -27,40 +27,27 @@ ClearView uses the og:site_name meta property to identify the current website an
 
 For Google Chrome, Opera, Edge, or Other Chromium Browsers:
 
- 1. Download or Clone the Repository
-Clone the repository to your local machine:
-
-git clone <repository_url>
-
+ 1. Download the latest release from our repository: https://github.com/JMasSolutions/ClearView
+   
  2. Load the Extension in Your Browser
- • Open your Chromium-based browser and go to the extensions page:
- • Chrome/Edge: chrome://extensions/
- • Opera: opera://extensions/
- • Enable Developer Mode (usually found in the top right corner).
- • Click Load unpacked and select the ClearView project folder.
- • The ClearView icon should now appear in your browser’s toolbar.
+    • Open your Chromium-based browser and go to the extensions page:
+    • Chrome/Edge: chrome://extensions/
+    • Opera: opera://extensions/
+    • Enable Developer Mode (usually found in the top right corner).
+    • Click Load unpacked and select the ClearView project folder.
+    • The ClearView icon should now appear in your browser’s toolbar.
  3. Test the Extension
- • Navigate to a news website, then click the ClearView icon in the toolbar.
- • The extension will display AllSides data related to the site.
+    • Navigate to a news website, then click the ClearView icon in the toolbar.
+    • The extension will display AllSides data related to the site.
 
-File Descriptions
-
- • manifest.json: Defines the metadata and permissions for the Chrome extension.
- • popup.html: The HTML file for the extension’s popup interface.
- • popup.js: Handles the dynamic data fetching and display for the popup.
- • content.js: Extracts the website’s name or URL to fetch relevant data from AllSides.
- • icon.png: The ClearView icon displayed in the browser toolbar.
- • Screenshot: A preview of the ClearView popup in action.
-
-Permissions
+**Permissions**
 
 ClearView requests the following permissions:
 
  • activeTab: Allows the extension to access the currently active tab for extracting site information.
  • scripting: Enables the extension to execute content scripts dynamically.
 
-License
+**License**
 
 This project is licensed under the MIT License.
 
-This README includes all relevant setup information for any Chromium-based browser, along with images for the logo and a screenshot to help users understand what the extension looks like in action.
