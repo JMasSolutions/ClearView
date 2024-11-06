@@ -1,3 +1,14 @@
+// Data Strucutre
+// 
+// "news_source":
+// "rating": 
+// "rating_num": 
+// "type": 
+// "agree": 
+// "disagree": 
+// "perc_agree": 
+// "confidence_level": 
+
 const all_side_data = []
 
 function load_data() {
@@ -27,3 +38,21 @@ function fetchData() {
 function is_online() {
     return navigator.onLine;
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    chrome.tabs.query({ active: true, currentWindow: true }, function(tabs) {
+      chrome.scripting.executeScript(
+        {
+          target: { tabId: tabs[0].id },
+          files: ['content.js']
+        },
+        (results) => {
+          if (results && results[0] && results[0].result) {
+            document.getElementById('siteName').textContent = results[0].result;
+          } else {
+            document.getElementById('siteName').textContent = "Site name not found";
+          }
+        }
+      );
+    });
+  });
